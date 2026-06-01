@@ -1,0 +1,6 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Gestion de compras en SauceDemo","Ingreso exitoso con credenciales validas","SUCCESS","2026-06-01T01:45:28.759277654-05:00[America/Lima]","0.0","32.82"
+"Gestion de compras en SauceDemo","Ingreso fallido con credenciales incorrectas","SUCCESS","2026-06-01T01:46:01.796744125-05:00[America/Lima]","0.0","7.31"
+"Gestion de compras en SauceDemo","Ingreso bloqueado para usuario restringido","SUCCESS","2026-06-01T01:46:09.282974127-05:00[America/Lima]","0.0","9.49"
+"Gestion de compras en SauceDemo","El comprador agrega un producto al carrito","SUCCESS","2026-06-01T01:46:19.341838763-05:00[America/Lima]","0.0","38.52"
+"Gestion de compras en SauceDemo","El comprador elimina un producto del carrito","SUCCESS","2026-06-01T01:46:57.881689101-05:00[America/Lima]","0.0","14.43"
