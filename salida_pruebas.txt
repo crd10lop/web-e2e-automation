@@ -1,0 +1,365 @@
+> Task :clearReports
+> Task :clean
+> Task :compileJava NO-SOURCE
+> Task :processResources NO-SOURCE
+> Task :classes UP-TO-DATE
+> Task :compileTestJava
+> Task :processTestResources
+> Task :testClasses
+
+> Task :test
+
+automatizacion.saucedemo.ejecutores.TestRunner STANDARD_ERROR
+    [Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///mnt/Datos/Archivos%20Cristian%20Diez/Proyectos_Personales/Calidad_Sofware/Taller_Automatizacion/src/test/resources/features/tienda/gestion_tienda.feature
+    [Test worker] INFO  - 
+
+    -------------------------------------------------------------------------------------
+         _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
+        /       ||   ____||   _  \     |   ____||  \ |  | |  | |           |\   \  /   / 
+       |   (----`|  |__   |  |_)  |    |  |__   |   \|  | |  | `---|  |----` \   \/   /  
+        \   \    |   __|  |      /     |   __|  |  . `  | |  |     |  |       \_    _/   
+    .----)   |   |  |____ |  |\  \----.|  |____ |  |\   | |  |     |  |         |  |     
+    |_______/    |_______|| _| `._____||_______||__| \__| |__|     |__|         |__|    
+                                                                                     
+     News and tutorials at http://www.serenity-bdd.info                                  
+     Documentation at https://wakaleo.gitbooks.io/the-serenity-book/content/             
+     Join the Serenity Community on Gitter: https://gitter.im/serenity-bdd/serenity-core 
+     Serenity BDD Support and Training at http://serenity-bdd.info/#/trainingandsupport  
+    -------------------------------------------------------------------------------------
+
+    [Test worker] INFO  - Test Suite Started: Gestion de compras en SauceDemo
+    [Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///mnt/Datos/Archivos%20Cristian%20Diez/Proyectos_Personales/Calidad_Sofware/Taller_Automatizacion/src/test/resources/features/tienda/gestion_tienda.feature
+    [Test worker] INFO  - Test Suite Started: Gestion de compras en SauceDemo
+
+automatizacion.saucedemo.ejecutores.TestRunner > Gestion de compras en SauceDemo.Ingreso exitoso con credenciales validas STANDARD_OUT
+
+    Escenario: Ingreso exitoso con credenciales validas                      [90m# src/test/resources/features/tienda/gestion_tienda.feature:7[0m
+
+automatizacion.saucedemo.ejecutores.TestRunner > Gestion de compras en SauceDemo.Ingreso exitoso con credenciales validas STANDARD_ERROR
+    [Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///mnt/Datos/Archivos%20Cristian%20Diez/Proyectos_Personales/Calidad_Sofware/Taller_Automatizacion/src/test/resources/features/tienda/gestion_tienda.feature
+    [Test worker] INFO  - 
+      _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+     |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+       | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+       |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+    Ingreso exitoso con credenciales validas(gestion-de-compras-en-saucedemo;ingreso-exitoso-con-credenciales-validas)
+    --------------------------------------------------------------------------------
+
+automatizacion.saucedemo.ejecutores.TestRunner > Gestion de compras en SauceDemo.Ingreso exitoso con credenciales validas STANDARD_OUT
+      [32mDado [0m[32mque el comprador quiere acceder a la tienda[0m                       [90m# automatizacion.saucedemo.pasos.StepDefinitions.buyerWantsToAccessTheStore()[0m
+
+automatizacion.saucedemo.ejecutores.TestRunner > Gestion de compras en SauceDemo.Ingreso exitoso con credenciales validas STANDARD_ERROR
+    [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.DriverProvider - Using WebDriverManager configuration for chrome
+    [Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 148.0.7778.178 (resolved driver for Chrome 148)
+    [Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /home/cc/.cache/selenium/chromedriver/linux64/148.0.7778.178/chromedriver
+    [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ChromeDriverProvider - Starting Chrome driver instance with capabilities:
+    [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ChromeDriverProvider - Capabilities {acceptInsecureCerts: false, browserName: chrome, goog:chromeOptions: {args: [--no-sandbox, --disable-gpu, --window-size=1280,800, --remote-allow-origins=*], extensions: []}}
+    Starting ChromeDriver 148.0.7778.178 (d096af1c9e98c45c3596e59620622b1a049bfecb-refs/branch-heads/7778@{#3196}) on port 43013
+    Only local connections are allowed.
+    Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+    ChromeDriver was started successfully on port 43013.
+    jun. 01, 2026 1:20:59 A. M. org.openqa.selenium.remote.ProtocolHandshake createSession
+    INFORMACIÓN: Detected upstream dialect: W3C
+    jun. 01, 2026 1:20:59 A. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    ADVERTENCIA: Unable to find an exact match for CDP version 148, so returning the closest version found: a no-op implementation
+    jun. 01, 2026 1:20:59 A. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    INFORMACIÓN: Unable to find CDP implementation matching 148.
+    jun. 01, 2026 1:20:59 A. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+    ADVERTENCIA: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.4.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+
+automatizacion.saucedemo.ejecutores.TestRunner > Gestion de compras en SauceDemo.Ingreso exitoso con credenciales validas STANDARD_OUT
+      [32mCuando [0m[32mingresa con usuario [0m[32m[1m"standard_user"[0m[32m y contrasena [0m[32m[1m"secret_sauce"[0m [90m# automatizacion.saucedemo.pasos.StepDefinitions.logInWithCredentials(java.lang.String,java.lang.String)[0m
+      [32mEntonces [0m[32mvisualiza el catalogo de productos[0m                            [90m# automatizacion.saucedemo.pasos.StepDefinitions.seesTheProductCatalog()[0m
+
+automatizacion.saucedemo.ejecutores.TestRunner > Gestion de compras en SauceDemo.Ingreso exitoso con credenciales validas STANDARD_ERROR
+    [Test worker] INFO  - 
+      _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
+     |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
+       | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
+       |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
+
+    Ingreso exitoso con credenciales validas
+    ----------------------------------------------------------------------
+    [AsyncHttpClient-1-4] WARN org.asynchttpclient.netty.handler.WebSocketHandler - onError
+    java.net.SocketException: Connection reset
+    	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+    	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+    	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:258)
+    	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+    	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+    	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+    	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:722)
+    	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658)
+    	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584)
+    	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+    	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+    	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+    	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+    	at java.base/java.lang.Thread.run(Thread.java:840)
+    jun. 01, 2026 1:21:19 A. M. org.openqa.selenium.remote.http.WebSocket$Listener onError
+    ADVERTENCIA: Connection reset
+    java.net.SocketException: Connection reset
+    	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+    	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+    	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:258)
+    	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+    	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+    	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+    	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:722)
+    	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658)
+    	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584)
+    	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+    	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+    	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+    	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+    	at java.base/java.lang.Thread.run(Thread.java:840)
+
+
+automatizacion.saucedemo.ejecutores.TestRunner > Gestion de compras en SauceDemo.Ingreso fallido con credenciales incorrectas STANDARD_OUT
+
+    Escenario: Ingreso fallido con credenciales incorrectas                                                         [90m# src/test/resources/features/tienda/gestion_tienda.feature:12[0m
+
+automatizacion.saucedemo.ejecutores.TestRunner > Gestion de compras en SauceDemo.Ingreso fallido con credenciales incorrectas STANDARD_ERROR
+    [Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///mnt/Datos/Archivos%20Cristian%20Diez/Proyectos_Personales/Calidad_Sofware/Taller_Automatizacion/src/test/resources/features/tienda/gestion_tienda.feature
+    [Test worker] INFO  - 
+      _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+     |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+       | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+       |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+    Ingreso fallido con credenciales incorrectas(gestion-de-compras-en-saucedemo;ingreso-fallido-con-credenciales-incorrectas)
+    --------------------------------------------------------------------------------
+
+automatizacion.saucedemo.ejecutores.TestRunner > Gestion de compras en SauceDemo.Ingreso fallido con credenciales incorrectas STANDARD_OUT
+      [32mDado [0m[32mque el comprador quiere acceder a la tienda[0m                                                              [90m# automatizacion.saucedemo.pasos.StepDefinitions.buyerWantsToAccessTheStore()[0m
+
+automatizacion.saucedemo.ejecutores.TestRunner > Gestion de compras en SauceDemo.Ingreso fallido con credenciales incorrectas STANDARD_ERROR
+    [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ChromeDriverProvider - Starting Chrome driver instance with capabilities:
+    [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ChromeDriverProvider - Capabilities {acceptInsecureCerts: false, browserName: chrome, goog:chromeOptions: {args: [--no-sandbox, --disable-gpu, --window-size=1280,800, --remote-allow-origins=*], extensions: []}}
+    Starting ChromeDriver 148.0.7778.178 (d096af1c9e98c45c3596e59620622b1a049bfecb-refs/branch-heads/7778@{#3196}) on port 59742
+    Only local connections are allowed.
+    Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+    ChromeDriver was started successfully on port 59742.
+    jun. 01, 2026 1:21:21 A. M. org.openqa.selenium.remote.ProtocolHandshake createSession
+    INFORMACIÓN: Detected upstream dialect: W3C
+    jun. 01, 2026 1:21:21 A. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    ADVERTENCIA: Unable to find an exact match for CDP version 148, so returning the closest version found: a no-op implementation
+    jun. 01, 2026 1:21:21 A. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    INFORMACIÓN: Unable to find CDP implementation matching 148.
+    jun. 01, 2026 1:21:21 A. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+    ADVERTENCIA: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.4.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+
+automatizacion.saucedemo.ejecutores.TestRunner > Gestion de compras en SauceDemo.Ingreso fallido con credenciales incorrectas STANDARD_OUT
+      [32mCuando [0m[32mingresa con usuario [0m[32m[1m"usuario_invalido"[0m[32m y contrasena [0m[32m[1m"contrasena_incorrecta"[0m                            [90m# automatizacion.saucedemo.pasos.StepDefinitions.logInWithCredentials(java.lang.String,java.lang.String)[0m
+      [32mEntonces [0m[32mel sistema muestra el mensaje de error [0m[32m[1m"Username and password do not match any user in this service"[0m [90m# automatizacion.saucedemo.pasos.StepDefinitions.systemShowsErrorMessage(java.lang.String)[0m
+
+automatizacion.saucedemo.ejecutores.TestRunner > Gestion de compras en SauceDemo.Ingreso fallido con credenciales incorrectas STANDARD_ERROR
+    [Test worker] INFO  - 
+      _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
+     |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
+       | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
+       |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
+
+    Ingreso fallido con credenciales incorrectas
+    ----------------------------------------------------------------------
+
+automatizacion.saucedemo.ejecutores.TestRunner > Gestion de compras en SauceDemo.Ingreso bloqueado para usuario restringido STANDARD_OUT
+
+    Escenario: Ingreso bloqueado para usuario restringido                                     [90m# src/test/resources/features/tienda/gestion_tienda.feature:17[0m
+
+automatizacion.saucedemo.ejecutores.TestRunner > Gestion de compras en SauceDemo.Ingreso bloqueado para usuario restringido STANDARD_ERROR
+    [Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///mnt/Datos/Archivos%20Cristian%20Diez/Proyectos_Personales/Calidad_Sofware/Taller_Automatizacion/src/test/resources/features/tienda/gestion_tienda.feature
+    [Test worker] INFO  - 
+      _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+     |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+       | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+       |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+    Ingreso bloqueado para usuario restringido(gestion-de-compras-en-saucedemo;ingreso-bloqueado-para-usuario-restringido)
+    --------------------------------------------------------------------------------
+
+automatizacion.saucedemo.ejecutores.TestRunner > Gestion de compras en SauceDemo.Ingreso bloqueado para usuario restringido STANDARD_OUT
+      [32mDado [0m[32mque el comprador quiere acceder a la tienda[0m                                        [90m# automatizacion.saucedemo.pasos.StepDefinitions.buyerWantsToAccessTheStore()[0m
+
+automatizacion.saucedemo.ejecutores.TestRunner > Gestion de compras en SauceDemo.Ingreso bloqueado para usuario restringido STANDARD_ERROR
+    [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ChromeDriverProvider - Starting Chrome driver instance with capabilities:
+    [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ChromeDriverProvider - Capabilities {acceptInsecureCerts: false, browserName: chrome, goog:chromeOptions: {args: [--no-sandbox, --disable-gpu, --window-size=1280,800, --remote-allow-origins=*], extensions: []}}
+    Starting ChromeDriver 148.0.7778.178 (d096af1c9e98c45c3596e59620622b1a049bfecb-refs/branch-heads/7778@{#3196}) on port 34270
+    Only local connections are allowed.
+    Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+    ChromeDriver was started successfully on port 34270.
+    jun. 01, 2026 1:21:28 A. M. org.openqa.selenium.remote.ProtocolHandshake createSession
+    INFORMACIÓN: Detected upstream dialect: W3C
+    jun. 01, 2026 1:21:28 A. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    ADVERTENCIA: Unable to find an exact match for CDP version 148, so returning the closest version found: a no-op implementation
+    jun. 01, 2026 1:21:28 A. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    INFORMACIÓN: Unable to find CDP implementation matching 148.
+    jun. 01, 2026 1:21:28 A. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+    ADVERTENCIA: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.4.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+
+automatizacion.saucedemo.ejecutores.TestRunner > Gestion de compras en SauceDemo.Ingreso bloqueado para usuario restringido STANDARD_OUT
+      [32mCuando [0m[32mingresa con usuario [0m[32m[1m"locked_out_user"[0m[32m y contrasena [0m[32m[1m"secret_sauce"[0m                [90m# automatizacion.saucedemo.pasos.StepDefinitions.logInWithCredentials(java.lang.String,java.lang.String)[0m
+      [32mEntonces [0m[32mel sistema muestra el mensaje de error [0m[32m[1m"Sorry, this user has been locked out."[0m [90m# automatizacion.saucedemo.pasos.StepDefinitions.systemShowsErrorMessage(java.lang.String)[0m
+
+automatizacion.saucedemo.ejecutores.TestRunner > Gestion de compras en SauceDemo.Ingreso bloqueado para usuario restringido STANDARD_ERROR
+    [Test worker] INFO  - 
+      _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
+     |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
+       | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
+       |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
+
+    Ingreso bloqueado para usuario restringido
+    ----------------------------------------------------------------------
+
+automatizacion.saucedemo.ejecutores.TestRunner > Gestion de compras en SauceDemo.El comprador agrega un producto al carrito #1 STANDARD_OUT
+
+    Esquema del escenario: El comprador agrega un producto al carrito [90m# src/test/resources/features/tienda/gestion_tienda.feature:29[0m
+
+automatizacion.saucedemo.ejecutores.TestRunner > Gestion de compras en SauceDemo.El comprador agrega un producto al carrito #1 STANDARD_ERROR
+    [Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///mnt/Datos/Archivos%20Cristian%20Diez/Proyectos_Personales/Calidad_Sofware/Taller_Automatizacion/src/test/resources/features/tienda/gestion_tienda.feature
+    [Test worker] INFO  - 
+      _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+     |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+       | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+       |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+    El comprador agrega un producto al carrito(gestion-de-compras-en-saucedemo;el-comprador-agrega-un-producto-al-carrito)
+    --------------------------------------------------------------------------------
+    [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ChromeDriverProvider - Starting Chrome driver instance with capabilities:
+    [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ChromeDriverProvider - Capabilities {acceptInsecureCerts: false, browserName: chrome, goog:chromeOptions: {args: [--no-sandbox, --disable-gpu, --window-size=1280,800, --remote-allow-origins=*], extensions: []}}
+    Starting ChromeDriver 148.0.7778.178 (d096af1c9e98c45c3596e59620622b1a049bfecb-refs/branch-heads/7778@{#3196}) on port 57794
+    Only local connections are allowed.
+    Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+    ChromeDriver was started successfully on port 57794.
+    jun. 01, 2026 1:21:36 A. M. org.openqa.selenium.remote.ProtocolHandshake createSession
+    INFORMACIÓN: Detected upstream dialect: W3C
+    jun. 01, 2026 1:21:36 A. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    ADVERTENCIA: Unable to find an exact match for CDP version 148, so returning the closest version found: a no-op implementation
+    jun. 01, 2026 1:21:37 A. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    INFORMACIÓN: Unable to find CDP implementation matching 148.
+    jun. 01, 2026 1:21:37 A. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+    ADVERTENCIA: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.4.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+
+automatizacion.saucedemo.ejecutores.TestRunner > Gestion de compras en SauceDemo.El comprador agrega un producto al carrito #1 STANDARD_OUT
+      [32mDado [0m[32mque el comprador esta autenticado en la tienda[0m             [90m# automatizacion.saucedemo.pasos.StepDefinitions.buyerIsAuthenticatedInTheStore()[0m
+      [32mCuando [0m[32magrega el producto [0m[32m[1m"Sauce Labs Backpack"[0m[32m al carrito[0m      [90m# automatizacion.saucedemo.pasos.StepDefinitions.addsProductToCart(java.lang.String)[0m
+      [32mEntonces [0m[32mel contador del carrito muestra [0m[32m[1m1[0m                      [90m# automatizacion.saucedemo.pasos.StepDefinitions.cartCounterShows(int)[0m
+
+automatizacion.saucedemo.ejecutores.TestRunner > Gestion de compras en SauceDemo.El comprador agrega un producto al carrito #1 STANDARD_ERROR
+    [Test worker] INFO  - 
+      _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
+     |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
+       | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
+       |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
+
+    El comprador agrega un producto al carrito
+    ----------------------------------------------------------------------
+
+automatizacion.saucedemo.ejecutores.TestRunner > Gestion de compras en SauceDemo.El comprador agrega un producto al carrito #2 STANDARD_OUT
+
+    Esquema del escenario: El comprador agrega un producto al carrito [90m# src/test/resources/features/tienda/gestion_tienda.feature:30[0m
+
+automatizacion.saucedemo.ejecutores.TestRunner > Gestion de compras en SauceDemo.El comprador agrega un producto al carrito #2 STANDARD_ERROR
+    [Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///mnt/Datos/Archivos%20Cristian%20Diez/Proyectos_Personales/Calidad_Sofware/Taller_Automatizacion/src/test/resources/features/tienda/gestion_tienda.feature
+    [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ChromeDriverProvider - Starting Chrome driver instance with capabilities:
+    [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ChromeDriverProvider - Capabilities {acceptInsecureCerts: false, browserName: chrome, goog:chromeOptions: {args: [--no-sandbox, --disable-gpu, --window-size=1280,800, --remote-allow-origins=*], extensions: []}}
+    Starting ChromeDriver 148.0.7778.178 (d096af1c9e98c45c3596e59620622b1a049bfecb-refs/branch-heads/7778@{#3196}) on port 59527
+    Only local connections are allowed.
+    Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+    ChromeDriver was started successfully on port 59527.
+    jun. 01, 2026 1:21:47 A. M. org.openqa.selenium.remote.ProtocolHandshake createSession
+    INFORMACIÓN: Detected upstream dialect: W3C
+    jun. 01, 2026 1:21:47 A. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    ADVERTENCIA: Unable to find an exact match for CDP version 148, so returning the closest version found: a no-op implementation
+    jun. 01, 2026 1:21:47 A. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    INFORMACIÓN: Unable to find CDP implementation matching 148.
+    jun. 01, 2026 1:21:47 A. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+    ADVERTENCIA: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.4.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+
+automatizacion.saucedemo.ejecutores.TestRunner > Gestion de compras en SauceDemo.El comprador agrega un producto al carrito #2 STANDARD_OUT
+      [32mDado [0m[32mque el comprador esta autenticado en la tienda[0m             [90m# automatizacion.saucedemo.pasos.StepDefinitions.buyerIsAuthenticatedInTheStore()[0m
+      [32mCuando [0m[32magrega el producto [0m[32m[1m"Sauce Labs Bike Light"[0m[32m al carrito[0m    [90m# automatizacion.saucedemo.pasos.StepDefinitions.addsProductToCart(java.lang.String)[0m
+      [32mEntonces [0m[32mel contador del carrito muestra [0m[32m[1m1[0m                      [90m# automatizacion.saucedemo.pasos.StepDefinitions.cartCounterShows(int)[0m
+
+automatizacion.saucedemo.ejecutores.TestRunner > Gestion de compras en SauceDemo.El comprador agrega un producto al carrito #2 STANDARD_ERROR
+    [Test worker] INFO  - 
+      _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
+     |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
+       | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
+       |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
+
+    El comprador agrega un producto al carrito
+    ----------------------------------------------------------------------
+
+automatizacion.saucedemo.ejecutores.TestRunner > Gestion de compras en SauceDemo.El comprador elimina un producto del carrito STANDARD_OUT
+
+    Escenario: El comprador elimina un producto del carrito        [90m# src/test/resources/features/tienda/gestion_tienda.feature:32[0m
+
+automatizacion.saucedemo.ejecutores.TestRunner > Gestion de compras en SauceDemo.El comprador elimina un producto del carrito STANDARD_ERROR
+    [Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///mnt/Datos/Archivos%20Cristian%20Diez/Proyectos_Personales/Calidad_Sofware/Taller_Automatizacion/src/test/resources/features/tienda/gestion_tienda.feature
+    [Test worker] INFO  - 
+      _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+     |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+       | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+       |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+    El comprador elimina un producto del carrito(gestion-de-compras-en-saucedemo;el-comprador-elimina-un-producto-del-carrito)
+    --------------------------------------------------------------------------------
+    [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ChromeDriverProvider - Starting Chrome driver instance with capabilities:
+    [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ChromeDriverProvider - Capabilities {acceptInsecureCerts: false, browserName: chrome, goog:chromeOptions: {args: [--no-sandbox, --disable-gpu, --window-size=1280,800, --remote-allow-origins=*], extensions: []}}
+    Starting ChromeDriver 148.0.7778.178 (d096af1c9e98c45c3596e59620622b1a049bfecb-refs/branch-heads/7778@{#3196}) on port 43609
+    Only local connections are allowed.
+    Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+    ChromeDriver was started successfully on port 43609.
+    jun. 01, 2026 1:21:57 A. M. org.openqa.selenium.remote.ProtocolHandshake createSession
+    INFORMACIÓN: Detected upstream dialect: W3C
+    jun. 01, 2026 1:21:57 A. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    ADVERTENCIA: Unable to find an exact match for CDP version 148, so returning the closest version found: a no-op implementation
+    jun. 01, 2026 1:21:57 A. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    INFORMACIÓN: Unable to find CDP implementation matching 148.
+    jun. 01, 2026 1:21:57 A. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+    ADVERTENCIA: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.4.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+
+automatizacion.saucedemo.ejecutores.TestRunner > Gestion de compras en SauceDemo.El comprador elimina un producto del carrito STANDARD_OUT
+      [32mDado [0m[32mque el comprador esta autenticado en la tienda[0m          [90m# automatizacion.saucedemo.pasos.StepDefinitions.buyerIsAuthenticatedInTheStore()[0m
+      [32mY [0m[32mtiene el producto [0m[32m[1m"Sauce Labs Backpack"[0m[32m en el carrito[0m      [90m# automatizacion.saucedemo.pasos.StepDefinitions.hasProductInCart(java.lang.String)[0m
+      [32mCuando [0m[32melimina el producto [0m[32m[1m"Sauce Labs Backpack"[0m[32m del carrito[0m [90m# automatizacion.saucedemo.pasos.StepDefinitions.removesProductFromCart(java.lang.String)[0m
+      [32mEntonces [0m[32mel carrito queda sin productos[0m                      [90m# automatizacion.saucedemo.pasos.StepDefinitions.cartHasNoProducts()[0m
+
+automatizacion.saucedemo.ejecutores.TestRunner > Gestion de compras en SauceDemo.El comprador elimina un producto del carrito STANDARD_ERROR
+    [Test worker] INFO  - 
+      _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
+     |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
+       | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
+       |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
+
+    El comprador elimina un producto del carrito
+    ----------------------------------------------------------------------
+
+automatizacion.saucedemo.ejecutores.TestRunner STANDARD_ERROR
+    [32m[1m┌───────────────────────────────────────────────────────────────────────────────────┐[0m
+    [32m[1m│[0m Share your Cucumber Report with your team at [36m[1m[4mhttps://reports.cucumber.io[0m          [32m[1m│[0m
+    [32m[1m│[0m Activate publishing with one of the following:                                    [32m[1m│[0m
+    [32m[1m│[0m                                                                                   [32m[1m│[0m
+    [32m[1m│[0m src/test/resources/cucumber.properties:          [36mcucumber.publish.enabled[0m=[36mtrue[0m    [32m[1m│[0m
+    [32m[1m│[0m src/test/resources/junit-platform.properties:    [36mcucumber.publish.enabled[0m=[36mtrue[0m    [32m[1m│[0m
+    [32m[1m│[0m Environment variable:                            [36mCUCUMBER_PUBLISH_ENABLED[0m=[36mtrue[0m    [32m[1m│[0m
+    [32m[1m│[0m JUnit:                                           [36m@CucumberOptions[0m(publish = [36mtrue[0m) [32m[1m│[0m
+    [32m[1m│[0m                                                                                   [32m[1m│[0m
+    [32m[1m│[0m More information at [36mhttps://cucumber.io/docs/cucumber/environment-variables/[0m      [32m[1m│[0m
+    [32m[1m│[0m                                                                                   [32m[1m│[0m
+    [32m[1m│[0m Disable this message with one of the following:                                   [32m[1m│[0m
+    [32m[1m│[0m                                                                                   [32m[1m│[0m
+    [32m[1m│[0m src/test/resources/cucumber.properties:          [36mcucumber.publish.quiet[0m=[36mtrue[0m      [32m[1m│[0m
+    [32m[1m│[0m src/test/resources/junit-platform.properties:    [36mcucumber.publish.quiet[0m=[36mtrue[0m      [32m[1m│[0m
+    [32m[1m└───────────────────────────────────────────────────────────────────────────────────┘[0m
+
+> Task :aggregate
+Generating Serenity Reports
+  - Main report: file:///mnt/Datos/Archivos%20Cristian%20Diez/Proyectos_Personales/Calidad_Sofware/Taller_Automatizacion/target/site/serenity/index.html
+      - Test Root: null
+      - Requirements base directory: null
+
+BUILD SUCCESSFUL in 1m 53s
+6 actionable tasks: 6 executed

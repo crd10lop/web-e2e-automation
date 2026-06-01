@@ -3,7 +3,7 @@ package automatizacion.saucedemo.tareas;
 import automatizacion.saucedemo.ui.InventoryPage;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
-import net.serenitybdd.screenplay.actions.Click;
+import net.serenitybdd.screenplay.actions.JavaScriptClick;
 import net.serenitybdd.screenplay.waits.WaitUntil;
 
 import static net.serenitybdd.screenplay.matchers.WebElementStateMatchers.isVisible;
@@ -24,7 +24,7 @@ public class RemoveProduct implements Task {
         actor.attemptsTo(
             WaitUntil.the(InventoryPage.removeFromCartButton(productName), isVisible()).forNoMoreThan(10).seconds(),
             PauseDemo.of(500),
-            Click.on(InventoryPage.removeFromCartButton(productName)),
+            JavaScriptClick.on(InventoryPage.removeFromCartButton(productName)),
             PauseDemo.of(800)
         );
     }

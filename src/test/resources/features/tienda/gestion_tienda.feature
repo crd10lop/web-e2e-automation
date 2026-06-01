@@ -1,5 +1,5 @@
 # language: es
-Caracteristica: Gestion de compras en SauceDemo
+Característica: Gestion de compras en SauceDemo
   Como comprador
   Quiero gestionar mis productos en el carrito
   Para completar mis compras correctamente
